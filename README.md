@@ -20,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'php_serialization'
+
+# Convert a serialized string to a Ruby data structure
+PhpSerialization.load(serialied_string)
+
+# Convert a Ruby data structure to a serialized string
+PhpSerialization.dump(ruby_object)
+```
 
 ## Contributing
 
